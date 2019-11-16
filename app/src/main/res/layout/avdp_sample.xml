@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBleachedSilk"
+    tools:context=".SampleActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_60dp"
+        android:text="Responsive XML"
+        android:textStyle="italic"
+        android:textSize="@dimen/_24sp"
+        android:textColor="@color/colorEnamelBlue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:background="@color/colorBlueRaspberry"
+        android:textColor="@color/colorBleachedSilk"
+        android:text="sample button"
+        android:textSize="@dimen/_16sp"
+        android:padding="@dimen/_12dp"
+        android:layout_margin="@dimen/_12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/textView"
+        app:layout_constraintStart_toStartOf="@id/textView"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+
+        />
+
+    <TextView
+        android:id="@+id/button2"
+        android:textColor="@color/colorEnamelBlue"
+        tools:text="@tools:sample/lorem/random"
+        android:maxLength="150"
+        android:gravity="center"
+        android:textSize="@dimen/_16sp"
+        android:padding="@dimen/_12dp"
+        android:layout_margin="@dimen/_12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/button1"
+        app:layout_constraintStart_toStartOf="@id/button1"
+        app:layout_constraintTop_toBottomOf="@id/button1"
+
+        />
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button2"
+
+        >
+
+
+        <TextView
+            android:id="@+id/ratings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="@dimen/_24dp"
+            android:text="★★★★★"
+            android:textColor="@color/colorEnamelBlue"
+            android:textSize="@dimen/_22sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/ratingssText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_neg12dp"
+            android:text="RATE US"
+            android:textColor="@color/colorBleachedSilk"
+            android:textSize="@dimen/_16sp"
+            android:textStyle="normal"
+            android:paddingStart="@dimen/_26sp"
+            android:paddingEnd="@dimen/_26sp"
+            android:background="@color/colorJasminGreen"
+            />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

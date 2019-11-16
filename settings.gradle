@@ -1,0 +1,2 @@
+include ':app', ':avdp'
+rootProject.name='All Varient DP'
