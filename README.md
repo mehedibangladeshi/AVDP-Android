@@ -23,7 +23,7 @@ add this in dependencies at app level build.gradle:
 ```java
 
 dependencies {
-	        implementation 'com.github.mehedibangladeshi:AVDP-Android:0.1.0'
+	        implementation 'com.github.mehedibangladeshi:AVDP-Android:0.2.0'
 	}
   
 ```
