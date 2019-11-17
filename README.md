@@ -30,14 +30,14 @@ dependencies {
 
 ## Example
 
-- for <b>Density Pixel</b> values write `"@dimen/_24dp"` instead of `"24dp"`
-- for font-size <b>SP</b> values, write `"@dimen/_20sp"` instead of `"20sp"`
+- for <b>Density Pixel</b> values Example : write `"@dimen/_24dp"` instead of `"24dp"`
+- for font-size <b>SP</b> values Example: write `"@dimen/_20sp"` instead of `"20sp"`
 
 
 ### A code example
 ``` xml
 <TextView
-                android:id="@+id/ratings"
+                android:id="@+id/greetings"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
